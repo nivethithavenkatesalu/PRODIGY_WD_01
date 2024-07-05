@@ -1,220 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Landing Page</title>
-    <!-- Box Icons -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
-    />
-    <!-- Link To CSS -->
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!-- Navbar -->
-    <header>
-      <a href="#" class="logo">ROYAL ENFIELD</a>
-      <div class="bx bx-menu" id="menu-icon"></div>
 
-      <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#services">Service</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <!-- Dark Mode -->
-        <div class="bx bx-moon" id="darkmode"></div>
-      </ul>
-    </header>
-    <!-- Home  Section-->
-    <section class="home" id="home">
-      <div class="home-text">
-        <h1>ROYAL BIKES</h1>
-        <h2>
-          RIDE ON YOUR OWN WAY<br />
-          your choice
-        </h2>
-        <a href="#" class="btn">Get Started</a>
-      </div>
-      <div class="home-img">
-        <img
-          src="re.jpg"
-          alt=""
-        />
-      </div>
-    </section>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>NIVEDHITHA BIKES. REPAIR AND SERVICES</title>
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <script src="https://kit.fontawesome.com/e29bf25393.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
 
-    <!-- About -->
-    <section class="about" id="about">
-      <div class="about-img">
-        <img
-          src="po.jpg"
-          alt=""
-        />
-      </div>
-      <div class="about-text">
-        <span>About Us</span>
-        <h2>We provide the best bullet bikes</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut quo iure
-          rem ducimus tenetur deserunt commodi doloribus, quibusdam vel fuga?
-        </p>
-        <a href="#" class="btn">Learn More</a>
-      </div>
-    </section>
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
 
-    <!-- Menu -->
-    <section class="menu" id="menu">
-      <div class="heading">
-        <span>Menu</span>
-        <h2>Exciting console options of the week</h2>
-      </div>
-      <div class="menu-container">
-        <!-- Box 1 -->
-        <div class="box">
-          <div class="box-img">
-            <img
-              src="new.jpg"
-              alt=""
-            />
-          </div>
-          <h2>NEW MODEL RE</h2>
-          <h3>Next-gen bikes</h3>
-          <span>$499.99</span>
-          <i class="bx bx-cart-alt"></i>
-        </div>
-        <!-- Box 2 -->
-        <div class="box">
-          <div class="box-img">
-            <img
-              src="himalayan.jpg"
-              alt=""
-            />
-          </div>
-          <h2>HIMALAYAN</h2>
-          <h3>Immersive riding</h3>
-          <span>$499.99</span>
-          <i class="bx bx-cart-alt"></i>
-        </div>
-        <!-- Box 3 -->
-        <div class="box">
-          <div class="box-img">
-            <img
-              src="continental.jpg"
-              alt=""
-            />
-          </div>
-          <h2>CONTINENTAL</h2>
-          <h3>Massive Milege</h3>
-          <span>$299.99</span>
-          <i class="bx bx-cart-alt"></i>
-        </div>
-      </div>
-    </section>
+</head>
 
-    <!-- Service -->
-    <section class="services" id="services">
-      <div class="heading">
-        <span>Services</span>
-        <h2>We provide the best bike services</h2>
+<body>
+   <!-- header section starts  -->
+   <header class="header">
+
+      <nav class="navbar">
+
+         <a href="#" class="logo"> <i class="fas fa-tools"></i> NIVEDHITHA BIKES. REPAIR AND SERVICES </a>
+
+         <div class="links">
+            <a href="#home">home</a>
+            <a href="#ab">about</a>
+            <a href="#services">services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">contact</a>
+         </div>
+         <!-- <img class="pro" src="images/default.png" height="48px" width="48px"> -->
+         <div id="menu-btn" class="fa fa-bars"></div>
+      </nav>
+   </header>
+
+   <!-- header section ends -->
+
+   <!-- home section starts  -->
+
+   <section class="home" id="home">
+      <div class="image">
+         <img src="images/main.jpg" alt="">
       </div>
 
-      <div class="servives-container">
-        <!-- Box 1 -->
-        <div class="s-box">
-          <img
-            src="https://cdn.pixabay.com/photo/2015/01/20/13/15/console-605604_960_720.jpg"
-            alt=""
-          />
-          <h3>You Order</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ea
-            fugiat esse tempore ipsum temporibus.
-          </p>
-        </div>
-        <!-- Box 2 -->
-        <div class="s-box">
-          <img
-            src="https://cdn.pixabay.com/photo/2017/06/22/15/46/controller-2439213_960_720.jpg"
-            alt=""
-          />
-          <h3>Shipping</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ea
-            fugiat esse tempore ipsum temporibus.
-          </p>
-        </div>
-        <!-- Box 3 -->
-        <div class="s-box">
-          <img
-            src="https://cdn.pixabay.com/photo/2015/01/20/13/18/console-605607_960_720.jpg"
-            alt=""
-          />
-          <h3>Delivered</h3>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit ea
-            fugiat esse tempore ipsum temporibus.
-          </p>
-        </div>
+      <div class="content">
+         <h3>Why fix it yourself? Leave it to the pros.</h3>
+         <p>Our technicians are highly courteous and trained with multiple years of industry experience. Highest quality
+            spare parts are used for all our jobs.</p>
+         <a href="#contact" class="btn">Contact</a>
       </div>
-    </section>
 
-    <!-- Connect -->
-    <section class="connect">
-      <div class="connect-text">
-        <span>Let's Talk</span>
-        <h2>Connect now</h2>
-      </div>
-      <a href="#" class="btn">Contact Us</a>
-    </section>
+   </section>
 
-    <!-- Contact -->
-    <section class="contact" id="contact">
-      <div class="contact-box">
-        <h3>ROYAL ENFIELD</h3>
-        <span>Connect With Us</span>
-        <div class="social">
-          <a href="#"><i class="bx bxl-facebook"></i></a>
-          <a href="#"><i class="bx bxl-twitter"></i></a>
-          <a href="#"><i class="bx bxl-instagram"></i></a>
-        </div>
-      </div>
-      <div class="contact-box">
-        <h3>Menu Links</h3>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about"> About</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#services">Service</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </div>
-      <div class="contact-box">
-        <h3>Quick Links</h3>
-        <li><a href="#Contact">Contact</a></li>
-        <li><a href="#Privacy Policy">Privacy Policy</a></li>
-        <li><a href="#Disclaimer">Disclaimer</a></li>
-        <li><a href="#Terms Of Use">Terms Of Use</a></li>
-      </div>
-      <div class="contact-box address">
-        <h3>Contact</h3>
-        <i class="bx bxs-map"
-          ><span>005, Lorem ipsum dolor, sit amet consectetur, India</span></i
-        >
-        <i class="bx bxs-phone"><span>+91 000 999 5555</span></i>
-        <i class="bx bxs-envelope"><span>Example@email.com</span></i>
-      </div>
-    </section>
+   <!-- home section ends -->
 
-    <!-- Copyright -->
-    <div class="copyright">
-      <p>© NIVE2024 All Right Reserved.</p>
-    </div>
+   <section class="gap" id="ab"></section>
 
-    <!-- Scroll Reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- Link To JavaScript -->
-    <script src="script.js"></script>
-  </body>
+   <!-- about section starts  -->
+
+   <h1 class="heading" style="margin-top: 5rem; margin-bottom:0px;">About</h1>
+   <section class="about" id="about" style="margin-top: 0px; padding-top:0px;">
+
+      <div class="content" style="padding-top: 0px;">
+         <h3>best quality Repair services</h3>
+         <p>Welcome to NIVEDHITHA Bikes. We provides a full range of services for the repair and modification of almost all
+            brands and models of both domestic and imported bikes.</p>
+
+         <p> We offering complete repairing services for various bikes and genuine spares parts available.</p>
+
+         <a href="#services" class="btn">read more</a>
+      </div>
+
+      <div class="image">
+         <img src="images/about.jpg" alt="" style="border-radius: 300px;">
+      </div>
+
+   </section>
+
+   <!-- about section ends -->
+   <section class="gap"></section>
+
+   <!-- services section starts  -->
+
+   <section class="services" id="services">
+
+      <h1 class="heading"> our <span>services</span> </h1>
+
+      <div class="box-container">
+
+         <div class="box">
+            <h3>Motor Bike Repair</h3>
+         </div>
+
+         <div class="box">
+            <h3>Engine work</h3>
+         </div>
+
+         <div class="box">
+            <h3>Painting</h3>
+         </div>
+         
+         <div class="box">
+            <h3>Bike Modification</h3>
+         </div>
+
+         <div class="box">
+            <h3>Tinkering</h3>
+         </div>
+
+         <div class="box">
+            <h3>GENUINE SPARES PARTS AVAILABLE</h3>
+         </div>
+      </div>
+
+   </section>
+
+   <!-- services section ends -->
+   <section class="gap"></section>
+
+   <!-- gallery section starts  -->
+
+   <section class="gallery" id="gallery">
+
+      <h1 class="heading"> our <span>gallery</span> </h1>
+
+      <div class="gallery-container">
+
+         <a class="box" href="images/g-img-1.jpg"><img src="images/repair1" alt=""></a>
+         <a class="box" href="images/g-img-2.jpg"><img src="images/repair2" alt=""></a>
+         <a class="box" href="images/g-img-8.jpg"><img src="images/repair3" alt=""></a>
+         <a class="box" href="images/g-img-4.jpg"><img src="images/repair4" alt=""></a>
+         <a class="box" href="images/g-img-5.jpg"><img src="images/repair5.avif" alt=""></a>
+         <a class="box" href="images/g-img-6.jpg"><img src="images/repair6" alt=""></a>
+
+      </div>
+
+   </section>
+
+ 
+
+   <!-- team section ends -->
+
+   <section class="gap"></section>
+
+   <!-- contact section starts  -->
+
+   <section class="contact" id="contact">
+
+      <h1 class="heading"> <span>contact</span> us </h1>
+
+      <div class="row">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1944.1218927380644!2d80.1443038385097!3d12.956246246839417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525e4cf5804677%3A0x64245a1222d41a00!2sSDNB%20VAISHNAV%20COLLEGE%20FOR%20WOMEN%2C%20Vaishnava%20College%20Rd%2C%20Lakshmi%20Nagar%2C%20Shanthi%20Nagar%2C%20Chromepet%2C%20Chennai%2C%20Tamil%20Nadu%20600044!5e0!3m2!1sen!2sin!4v1720201011314!5m2!1sen!2sin"width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <form>
+            <div class="inputBox">
+               <a href="tel:123456789" class="link"> <i class="fas fa-phone"></i> 123456789 </a>
+            </div>
+            <div class="inputBox">
+               <a href="tel:123456789" class="link"> <i class="fas fa-phone"></i> 123456789 </a>
+            </div>
+            <div class="inputBox">
+               <a href="mailto:nivethithavenkatesalu@gmail.com" class="link"> <i class="fas fa-envelope"></i>
+                  nivethithavenkatesalu@gmail.com </a>
+            </div>
+            <div class="inputBox">
+               <a href="mailto=nivethithavenkatesalu@gmail.com" class="link"> <i class="fas fa-envelope"></i>
+                  nivethithavenkatesalu@gmail.com </a>
+            </div>
+         </form>
+
+      </div>
+
+   </section>
+
+   <!-- contact section ends -->
+
+   <!-- footer section starts  -->
+
+   <section class="footer">
+
+      <div class="box-container">
+
+         <div class="box">
+            <h3>quick links</h3>
+            <a class="link" href="#home"> <i class="fas fa-angle-right"></i> Home</a>
+            <a class="link" href="#about"> <i class="fas fa-angle-right"></i> About</a>
+            <a class="link" href="#services"> <i class="fas fa-angle-right"></i> Services</a>
+            <a class="link" href="#gallery"> <i class="fas fa-angle-right"></i> Gallery</a>
+            <a class="link" href="#reviews"> <i class="fas fa-angle-right"></i> Reviews</a>
+            <a class="link" href="#contact"> <i class="fas fa-angle-right"></i> Contact</a>
+         </div>
+
+         <div class="box">
+            <h3>contact info</h3>
+            <a href="tel:123456789" class="link"> <i class="fas fa-phone"></i> 123456789 </a>
+            <a href="tel:123456789" class="link"> <i class="fas fa-phone"></i> 123456789 </a>
+            <a href="mailto:nivethithavenkatesalu@gmail.com" class="link"> <i class="fas fa-envelope"></i>
+               nivethithavenkatesalu@gmail.com </a>
+               <a href="mailto:nivethithavenkatesalu@gmail.com" class="link"> <i class="fas fa-envelope"></i>
+                  nivethithavenkatesalu@gmail.com</a> 
+            <a class="link"> <i class="fas fa-map"></i> SDNB VAISHNAV COLLEGE FOR WOMEN
+               Vaishnava College Rd, Lakshmi Nagar, Shanthi Nagar, Chromepet, Chennai, Tamil Nadu 600044 </a>
+         </div>
+
+         <div class="box">
+            <h3>newsletter</h3>
+            <p>Subscribe for latest updates</p>
+            <form>
+               <input type="email" name="email" placeholder="Enter your email" class="email">
+               <input type="submit" value="subscribe" class="btn">
+            </form>
+            <div class="share">
+               <a href="#" class="fab fa-facebook-f"></a>
+               <a href="#" class="fab fa-twitter"></a>
+               <a href="#" class="fab fa-instagram"></a>
+               <a href="#" class="fab fa-linkedin"></a>
+            </div>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- footer section ends -->
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+   <!-- custom js file link  -->
+   <script src="js/scriptt.js"></script>
+
+
+
+</body>
+
 </html>
